@@ -5,6 +5,7 @@ import sys
 
 
 class Food:
+    BooleanLogic = ["AND", "OR", "NOT", "XOR", "->", "|"]
     FoodTags = ["Еда", "Поесть", "Перекусить", "Покушать"]
     # Теги слова "легкий"
     LightTags = ("Легкий", "Лёгкий", "Легкое", "Лёгкое")
